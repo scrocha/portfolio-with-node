@@ -5,10 +5,10 @@ function $$(selector, context = document) {
 }
 
 let pages = [
-    { url: "/", title: "Sobre Mim" },
-    { url: "/projects/", title: "Projetos" },
-    { url: "/resume/", title: "Currículo" },
-    { url: "/contact/", title: "Contato" },
+    { url: "", title: "Sobre Mim" },
+    { url: "projects/", title: "Projetos" },
+    { url: "resume/", title: "Currículo" },
+    { url: "contact/", title: "Contato" },
     { url: "https://github.com/scrocha", title: "GitHub" }
 ];
 
@@ -32,7 +32,7 @@ for (let p of pages) {
     let title = p.title;
     
     if (!url.startsWith("http") && !url.startsWith("/")) {
-        url = "/" + url;
+        url = "../" + url;
     }
     
     let ref = document.createElement("a");
