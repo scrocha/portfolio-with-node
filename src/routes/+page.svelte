@@ -1,4 +1,7 @@
-<body>
+<svelte:head>
+  <title>Sobre Mim</title>
+</svelte:head>
+
     <main>
       <section id="about">
         <h2 style="text-align: center;">Sobre Mim</h2>
@@ -12,4 +15,4 @@
     <footer>
       <p>&copy; 2025 Sillas Rocha da Costa. Todos os direitos reservados.</p>
     </footer>
-  </body>
+
