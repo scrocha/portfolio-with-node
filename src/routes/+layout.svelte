@@ -6,9 +6,9 @@ import { page } from "$app/stores";
 
 let pages = [
     { url: ".", title: "Sobre Mim" },
-    { url: "projects", title: "Projetos" },
-    { url: "resume", title: "Currículo" },
-    { url: "contact", title: "Contato" },
+    { url: "projects/", title: "Projetos" },
+    { url: "resume/", title: "Currículo" },
+    { url: "contact/", title: "Contato" },
     { url: "https://github.com/scrocha", title: "GitHub" }
 ];
 
@@ -21,7 +21,7 @@ let colorScheme = localStorage.colorScheme ?? "light dark";
 let root = globalThis?.document?.documentElement;
 root?.style.setProperty("color-scheme", colorScheme);
 $: root?.style.setProperty("color-scheme", colorScheme);
-
+$: localStorage.colorScheme = colorScheme;
 
 
 </script>
