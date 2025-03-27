@@ -7,7 +7,7 @@
 </script>
 
   <main>
-    <h1>{ projects.length } Projetsos</h1>
+    <h1>{ projects.length } Projetos</h1>
     <div class="projects">
       {#each projects as p}
         <article>

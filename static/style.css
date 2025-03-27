@@ -53,3 +53,28 @@ form label {
   gap: 5px;
 }
 
+
+dl{
+  display: grid;
+  grid-template-columns: auto;
+}
+dt{
+  grid-row: 1;
+  font-family: inherit;
+  font-weight: bold;
+  color: var(--border-gray);
+  text-transform: uppercase;
+}
+dd{
+  font-family: inherit;
+  font-weight: bold;
+}
+section{
+  border-width:0.15em;
+  border-style:solid;
+  border-color:var(--border-gray);
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+
