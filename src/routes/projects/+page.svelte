@@ -36,6 +36,8 @@ let pieData;
 
 // Define arcData and arcs outside the reactive block
 
+let selectedYearIndex = -1;
+
 let selectedYear;
 $: selectedYear = selectedYearIndex > -1 ? pieData[selectedYearIndex].label : null;
 
