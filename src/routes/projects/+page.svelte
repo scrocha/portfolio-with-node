@@ -9,6 +9,7 @@
   import * as d3 from 'd3';
 
 
+
 let query = "";
 
 // let filteredProjects;
@@ -34,15 +35,6 @@ let pieData;
     }
 
 // Define arcData and arcs outside the reactive block
-// let arcData;
-// let arcs;
-
-//     $: {
-//         arcData = sliceGenerator(pieData);
-//         arcs = arcData.map(d => arcGenerator(d));
-//     }
-
-
 
 
 
