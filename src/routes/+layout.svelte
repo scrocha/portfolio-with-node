@@ -3,7 +3,6 @@
 import { base } from "$app/paths";
 import { page } from "$app/stores";
 
-
 let pages = [
     { url: "/", title: "Sobre Mim" },
     { url: "/projects", title: "Projetos" },

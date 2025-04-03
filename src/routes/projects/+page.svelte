@@ -4,19 +4,23 @@
 
 <script>
   import projects from "$lib/projects.json";
+  import Project from "$lib/Project.svelte";
+  import Pie from '$lib/Pie.svelte';
 </script>
 
   <main>
     <h1>{ projects.length } Projetos</h1>
+    <Pie/>
     <div class="projects">
       {#each projects as p}
-        <article>
+        <Project data={p} />
+        <!-- <article>
           <h2>{ p.title }</h2>
           <img src={ p.image } alt="" />
           <p>
             { p.description }
           </p>
-        </article>
+        </article> -->
       {/each}
     </div>
   </main>
