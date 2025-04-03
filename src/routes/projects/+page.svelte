@@ -36,13 +36,14 @@ let pieData;
 
 // Define arcData and arcs outside the reactive block
 
-
+let selectedYear;
+$: selectedYear = selectedYearIndex > -1 ? pieData[selectedYearIndex].label : null;
 
 </script>
 
   <main>
     <h1>{ projects.length } Projetos</h1>
-    <Pie data={pieData}/>
+    <Pie data={pieData} bind:selectedIndex={selectedYearIndex} />
 
     <input type="search" bind:value={query} aria-label="Search projects" placeholder="🔍 Search projects..." />
 
