@@ -9,14 +9,7 @@ let arc = arcGenerator({
     endAngle: 2 * Math.PI
 });
 
-let data = [
-    { value: 1, label: "apples" },
-    { value: 2, label: "oranges" },
-    { value: 3, label: "mangos" },
-    { value: 4, label: "pears" },
-    { value: 5, label: "limes" },
-    { value: 5, label: "cherries" }
-];
+export let data = [];
 
 let sliceGenerator = d3.pie().value(d => d.value);
 
@@ -115,6 +108,16 @@ ul:has(.selected) li:not(.selected) {
 path:hover {
 	opacity: 100% !important;
 }
+
+svg:has(path:hover) path:not(:hover) {
+    opacity: 50%;
+}
+
+path {
+    transition: 300ms;
+}
+
+
 
 </style>
 

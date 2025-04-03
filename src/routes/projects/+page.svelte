@@ -6,13 +6,56 @@
   import projects from "$lib/projects.json";
   import Project from "$lib/Project.svelte";
   import Pie from '$lib/Pie.svelte';
+  import * as d3 from 'd3';
+
+
+let query = "";
+
+// let filteredProjects;
+$: filteredProjects = projects.filter(project => {
+    let values = Object.values(project).join("\n").toLowerCase();
+    return values.includes(query.toLowerCase());
+});
+
+
+let pieData;
+
+    $: {
+        // Initialize to an empty object every time this runs
+        pieData = {};
+        
+        // Calculate rolledData and pieData based on filteredProjects here
+        let rolledData = d3.rollups(filteredProjects, v => v.length, d => d.year);
+
+        // We don't need 'let' anymore since we already defined pieData
+        pieData = rolledData.map(([year, count]) => {
+            return { value: count, label: year };
+        });
+    }
+
+// Define arcData and arcs outside the reactive block
+// let arcData;
+// let arcs;
+
+//     $: {
+//         arcData = sliceGenerator(pieData);
+//         arcs = arcData.map(d => arcGenerator(d));
+//     }
+
+
+
+
+
 </script>
 
   <main>
     <h1>{ projects.length } Projetos</h1>
-    <Pie/>
+    <Pie data={pieData}/>
+
+    <input type="search" bind:value={query} aria-label="Search projects" placeholder="🔍 Search projects..." />
+
     <div class="projects">
-      {#each projects as p}
+      {#each filteredProjects as p}
         <Project data={p} />
         <!-- <article>
           <h2>{ p.title }</h2>
