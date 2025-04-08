@@ -1,4 +1,3 @@
-
 <script>
 import { base } from "$app/paths";
 import { page } from "$app/stores";
@@ -8,37 +7,38 @@ let pages = [
     { url: "/projects", title: "Projetos" },
     { url: "/resume", title: "Currículo" },
     { url: "/contact", title: "Contato" },
-    { url: "/meta", title: "Meta" },
+    { url: "/meta", title: "Meta-análise" },
     { url: "https://github.com/scrocha", title: "GitHub" }
 ];
-
 
 let localStorage = globalThis.localStorage ?? {};
 
 let colorScheme = localStorage.colorScheme ?? "light dark";
-
 
 let root = globalThis?.document?.documentElement;
 root?.style.setProperty("color-scheme", colorScheme);
 $: root?.style.setProperty("color-scheme", colorScheme);
 $: localStorage.colorScheme = colorScheme;
 
-
 </script>
 
-
-<nav>
-    {#each pages as p}
-        <a
-            href={p.url.startsWith("http") ? p.url: `${base}${p.url}`}
+<header>
+  <nav>
+    <ul>
+      {#each pages as p}
+        <li>
+          <a
+            href={p.url.startsWith("http") ? p.url : `${base}${p.url}`}
             class:current={$page.route.id === p.url}
             target={p.url.startsWith("http") ? "_blank" : undefined}
-        >
+          >
             {p.title}
-        </a>
-    {/each}
-</nav>
-
+          </a>
+        </li>
+      {/each}
+    </ul>
+  </nav>
+</header>
 
 <label class="color-scheme">
     Theme:
@@ -48,7 +48,6 @@ $: localStorage.colorScheme = colorScheme;
         <option value="dark"> Dark </option>
     </select>
 </label>
-
 
 <style>
 :root {
@@ -64,8 +63,18 @@ nav {
   border-bottom-color: var(--grey);
 }
 
-nav a {
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav li {
   flex: 1;
+}
+
+nav a {
   text-decoration: none;
   color: inherit;
   text-align: center;
@@ -73,21 +82,19 @@ nav a {
 }
 
 nav .current {
-border-bottom-width: 0.4em;
-border-bottom-style: solid;
-border-bottom-color: var(--grey);
-padding: 0.1em;
-
-}
-nav a:hover{
-border-bottom-width: 0.4em;
-border-bottom-style: solid;
-border-bottom-color: var(--collor-accent);
-padding-bottom: -0.1em;
-background-color: var(--collor-accent-bg);
+  border-bottom-width: 0.4em;
+  border-bottom-style: solid;
+  border-bottom-color: var(--grey);
+  padding: 0.1em;
 }
 
+nav a:hover {
+  border-bottom-width: 0.4em;
+  border-bottom-style: solid;
+  border-bottom-color: var(--collor-accent);
+  padding-bottom: -0.1em;
+  background-color: var(--collor-accent-bg);
+}
 </style>
-
 
 <slot />
