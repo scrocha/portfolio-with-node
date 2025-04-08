@@ -110,7 +110,7 @@
 
   onMount(async () => {
     try {
-      const response = await fetch('/loc.csv');
+      const response = await fetch('./loc.csv');
       const text = await response.text();
       
       // Processando o CSV
