@@ -16,6 +16,14 @@
   let totalLines = 0;
   let fileCount = 0;
   let authorStats = [];
+  let commits = [];
+  let maxFileLength = 0;
+  let longestFile = '';
+  let avgLineLength = 0;
+  let maxLineLength = 0;
+  let longestLine = '';
+  let maxDepth = 0;
+  let avgDepth = 0;
   
   onMount(async () => {
     try {
@@ -25,9 +33,56 @@
       // Processando o CSV
       csvData = d3.csvParse(text);
       
+      // Convertendo tipos de dados
+      csvData = csvData.map(row => ({
+        ...row,
+        line: Number(row.line || 0),
+        depth: Number(row.depth || 0),
+        length: Number(row.length || 0),
+        date: row.date ? new Date(row.date + "T00:00" + (row.timezone || "")) : null,
+        datetime: row.datetime ? new Date(row.datetime) : null
+      }));
+      
       // Calculando estatísticas básicas
       fileCount = new Set(csvData.map(d => d.file)).size;
       totalLines = csvData.length;
+      
+      // Análise de commits
+      commits = d3.groups(csvData, d => d.commit).map(([commit, lines]) => {
+        if (!lines.length || !commit) return null;
+        
+        let first = lines[0];
+        let {author, date, time, timezone, datetime} = first;
+        let ret = {
+          id: commit,
+          url: `https://github.com/scrocha/portfolio-with-node/commit/${commit}`,
+          author, date, time, timezone, datetime,
+          hourFrac: datetime ? datetime.getHours() + datetime.getMinutes() / 60 : 0,
+          totalLines: lines.length
+        };
+        
+        // Adiciona lines como propriedade não enumerável
+        Object.defineProperty(ret, "lines", {
+          value: lines,
+          configurable: true,
+          writable: true,
+          enumerable: false,
+        });
+        
+        return ret;
+      }).filter(c => c !== null);
+      
+      // Estatísticas adicionais
+      const fileGroups = d3.groups(csvData, d => d.file);
+      maxFileLength = d3.max(fileGroups, group => group[1].length) || 0;
+      longestFile = fileGroups.find(group => group[1].length === maxFileLength)?.[0] || '';
+      
+      avgLineLength = d3.mean(csvData, d => d.length) || 0;
+      maxLineLength = d3.max(csvData, d => d.length) || 0;
+      longestLine = csvData.find(d => d.length === maxLineLength)?.content || '';
+      
+      maxDepth = d3.max(csvData, d => d.depth) || 0;
+      avgDepth = d3.mean(csvData, d => d.depth) || 0;
       
       // Contando tipos de arquivo
       const fileTypeCount = d3.rollups(
@@ -74,18 +129,68 @@
   {:else}
     <section>
       <h2>Visão Geral</h2>
-      <dl>
-        <dt>Total de arquivos:</dt>
-        <dd>{fileCount}</dd>
+      <div class="stats-container">
+        <dl class="stats">
+          <dt>Total de linhas:</dt>
+          <dd>{totalLines}</dd>
+          
+          <dt>Total de arquivos:</dt>
+          <dd>{fileCount}</dd>
+          
+          <dt>Total de commits:</dt>
+          <dd>{commits.length}</dd>
+          
+          <dt>Arquivo mais longo:</dt>
+          <dd>{longestFile} ({maxFileLength} linhas)</dd>
+        </dl>
         
-        <dt>Total de linhas:</dt>
-        <dd>{totalLines}</dd>
-      </dl>
+        <dl class="stats">
+          <dt>Profundidade máxima:</dt>
+          <dd>{maxDepth} níveis</dd>
+          
+          <dt>Profundidade média:</dt>
+          <dd>{avgDepth.toFixed(2)} níveis</dd>
+          
+          <dt>Tamanho médio de linha:</dt>
+          <dd>{avgLineLength.toFixed(2)} caracteres</dd>
+          
+          <dt>Linha mais longa:</dt>
+          <dd title={longestLine}>{maxLineLength} caracteres</dd>
+        </dl>
+      </div>
     </section>
     
     <section>
       <h2>Distribuição por Tipo de Arquivo</h2>
       <Pie data={fileTypes} />
+    </section>
+    
+    <section>
+      <h2>Análise de Commits</h2>
+      <p>Total de commits: {commits.length}</p>
+      {#if commits.length > 0}
+        <table>
+          <thead>
+            <tr>
+              <th>ID do Commit</th>
+              <th>Autor</th>
+              <th>Data</th>
+              <th>Linhas Alteradas</th>
+            </tr>
+          </thead>
+          <tbody>
+            {#each commits.slice(0, 10) as commit}
+              <tr>
+                <td><a href={commit.url} target="_blank">{commit.id.substring(0, 7)}</a></td>
+                <td>{commit.author}</td>
+                <td>{commit.date ? new Date(commit.date).toLocaleDateString() : 'N/A'}</td>
+                <td>{commit.totalLines}</td>
+              </tr>
+            {/each}
+          </tbody>
+        </table>
+        <p><em>Mostrando os 10 commits mais recentes</em></p>
+      {/if}
     </section>
     
     <section>
@@ -142,15 +247,53 @@
   
   section {
     margin: 2em 0;
+    padding: 1.5em;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    border-width: 0.15em;
+    border-style: solid;
+    border-color: var(--grey, #ccc);
   }
   
-  dl {
+  .stats-container {
     display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 0.5em 1em;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5em;
+    margin: 1em 0;
+    overflow: visible;
+    align-items: start;
+  }
+  
+  dl.stats {
+    display: grid;
+    grid-template-columns: minmax(140px, auto) 1fr;
+    gap: 0.8em 1em;
+    margin: 0;
+    align-items: baseline;
   }
   
   dt {
     font-weight: bold;
+    color: var(--grey, #666);
+    text-transform: uppercase;
+    word-wrap: break-word;
+    margin: 0;
+  }
+  
+  dd {
+    font-weight: bold;
+    margin: 0;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+  
+  a {
+    color: var(--collor-accent, #0066cc);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
   }
 </style>
