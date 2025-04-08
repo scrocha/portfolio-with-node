@@ -34,7 +34,7 @@ let colors = d3.scaleOrdinal(d3.schemeTableau10);
     {#each arcs as arc, index}
         <path d={arc} fill={ colors(index) }
             class:selected={selectedIndex === index}
-            on:click={e => selectedIndex = selectedIndex === index ? -1 : index}
+            on:click={e => selectedIndex = selectedIndex === index ? -1 : index} />
     {/each}
 
 

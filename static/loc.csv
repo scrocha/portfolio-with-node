@@ -1,0 +1,633 @@
+file,line,type,commit,author,date,time,timezone,datetime,depth,length
+static/style.css,1,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,6
+static/style.css,2,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,25
+static/style.css,3,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,34
+static/style.css,4,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,43
+static/style.css,5,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,0
+static/style.css,6,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,0
+static/style.css,7,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,5
+static/style.css,8,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,24
+static/style.css,9,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,16
+static/style.css,10,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,19
+static/style.css,11,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,12
+static/style.css,12,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,0
+static/style.css,13,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,0
+static/style.css,14,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,25
+static/style.css,15,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,13
+static/style.css,16,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,11
+static/style.css,17,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,22
+static/style.css,18,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,0
+static/style.css,19,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,0
+static/style.css,20,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,31
+static/style.css,21,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,14
+static/style.css,22,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,0
+static/style.css,23,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,30
+static/style.css,24,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,0
+static/style.css,25,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,7
+static/style.css,26,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,19
+static/style.css,27,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,0
+static/style.css,28,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,0
+static/style.css,29,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,12
+static/style.css,30,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,18
+static/style.css,31,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,0
+static/style.css,32,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,0
+static/style.css,33,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,5
+static/style.css,34,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,13
+static/style.css,35,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,9
+static/style.css,36,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,31
+static/style.css,37,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,0
+static/style.css,38,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,0
+static/style.css,39,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,11
+static/style.css,40,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,13
+static/style.css,41,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,30
+static/style.css,42,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,0
+static/style.css,43,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,0
+static/style.css,44,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,15
+static/style.css,45,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,19
+static/style.css,46,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,0
+static/style.css,47,css,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,0
+static/style.css,48,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,14
+static/style.css,49,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,17
+static/style.css,50,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,9
+static/style.css,51,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,11
+static/style.css,52,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,20
+static/style.css,53,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,8
+static/style.css,54,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,0
+static/style.css,55,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,0
+static/style.css,56,css,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,0
+static/style.css,57,css,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,2
+static/style.css,58,css,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,13
+static/style.css,59,css,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,27
+static/style.css,60,css,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,0
+static/style.css,61,css,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,2
+static/style.css,62,css,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,11
+static/style.css,63,css,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,20
+static/style.css,64,css,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,17
+static/style.css,65,css,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,25
+static/style.css,66,css,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,25
+static/style.css,67,css,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,0
+static/style.css,68,css,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,2
+static/style.css,69,css,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,20
+static/style.css,70,css,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,17
+static/style.css,71,css,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,0
+static/style.css,72,css,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,7
+static/style.css,73,css,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,19
+static/style.css,74,css,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,18
+static/style.css,75,css,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,31
+static/style.css,76,css,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,17
+static/style.css,77,css,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,18
+static/style.css,78,css,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,0
+static/style.css,79,css,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,0
+static/style.css,80,css,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,0
+static/global.js,1,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,29
+static/global.js,2,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,0
+static/global.js,3,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,45
+static/global.js,4,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,60
+static/global.js,5,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,3
+static/global.js,6,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,0
+static/global.js,7,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,15
+static/global.js,8,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,39
+static/global.js,9,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,45
+static/global.js,10,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,44
+static/global.js,11,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,43
+static/global.js,12,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,60
+static/global.js,13,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,4
+static/global.js,14,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,0
+static/global.js,15,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,57
+static/global.js,16,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,32
+static/global.js,17,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,104
+static/global.js,18,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,0
+static/global.js,19,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,20
+static/global.js,20,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,43
+static/global.js,21,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,3
+static/global.js,22,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,0
+static/global.js,23,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,40
+static/global.js,24,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,34
+static/global.js,25,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,28
+static/global.js,26,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,0
+static/global.js,27,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,42
+static/global.js,28,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,50
+static/global.js,29,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,0
+static/global.js,30,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,27
+static/global.js,31,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,25
+static/global.js,32,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,29
+static/global.js,33,js,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,0
+static/global.js,34,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,66
+static/global.js,35,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,34
+static/global.js,36,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,13
+static/global.js,37,js,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,0
+static/global.js,38,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,47
+static/global.js,39,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,24
+static/global.js,40,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,33
+static/global.js,41,js,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,0
+static/global.js,42,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,80
+static/global.js,43,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,42
+static/global.js,44,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,10
+static/global.js,45,js,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,0
+static/global.js,46,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,44
+static/global.js,47,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,42
+static/global.js,48,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,35
+static/global.js,49,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,10
+static/global.js,50,js,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,0
+static/global.js,51,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,25
+static/global.js,52,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,6
+src/app.html,1,html,cac589f4,Sillas Rocha,2025-03-20,11:53:25,-03:00,2025-03-20T11:53:25-03:00,0,14
+src/app.html,2,html,cac589f4,Sillas Rocha,2025-03-20,11:53:25,-03:00,2025-03-20T11:53:25-03:00,0,15
+src/app.html,3,html,cac589f4,Sillas Rocha,2025-03-20,11:53:25,-03:00,2025-03-20T11:53:25-03:00,1,5
+src/app.html,4,html,cac589f4,Sillas Rocha,2025-03-20,11:53:25,-03:00,2025-03-20T11:53:25-03:00,2,23
+src/app.html,5,html,cac589f4,Sillas Rocha,2025-03-20,11:53:25,-03:00,2025-03-20T11:53:25-03:00,2,56
+src/app.html,6,html,cac589f4,Sillas Rocha,2025-03-20,11:53:25,-03:00,2025-03-20T11:53:25-03:00,2,52
+src/app.html,7,html,cac589f4,Sillas Rocha,2025-03-20,11:53:25,-03:00,2025-03-20T11:53:25-03:00,2,15
+src/app.html,8,html,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,2,60
+src/app.html,9,html,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,2,65
+src/app.html,10,html,cac589f4,Sillas Rocha,2025-03-20,11:53:25,-03:00,2025-03-20T11:53:25-03:00,1,6
+src/app.html,11,html,cac589f4,Sillas Rocha,2025-03-20,11:53:25,-03:00,2025-03-20T11:53:25-03:00,1,41
+src/app.html,12,html,cac589f4,Sillas Rocha,2025-03-20,11:53:25,-03:00,2025-03-20T11:53:25-03:00,2,52
+src/app.html,13,html,cac589f4,Sillas Rocha,2025-03-20,11:53:25,-03:00,2025-03-20T11:53:25-03:00,1,6
+src/app.html,14,html,cac589f4,Sillas Rocha,2025-03-20,11:53:25,-03:00,2025-03-20T11:53:25-03:00,0,6
+src/routes/+page.svelte,1,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,12
+src/routes/+page.svelte,2,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,23
+src/routes/+page.svelte,3,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,13
+src/routes/+page.svelte,4,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,0
+src/routes/+page.svelte,5,svelte,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,7
+src/routes/+page.svelte,6,js,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,63
+src/routes/+page.svelte,7,svelte,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,8
+src/routes/+page.svelte,8,svelte,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,0
+src/routes/+page.svelte,9,svelte,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,19
+src/routes/+page.svelte,10,svelte,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,19
+src/routes/+page.svelte,11,svelte,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,15
+src/routes/+page.svelte,12,svelte,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,23
+src/routes/+page.svelte,13,svelte,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,22
+src/routes/+page.svelte,14,svelte,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,11
+src/routes/+page.svelte,15,svelte,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,8
+src/routes/+page.svelte,16,svelte,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,34
+src/routes/+page.svelte,17,svelte,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,3
+src/routes/+page.svelte,18,svelte,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,18
+src/routes/+page.svelte,19,svelte,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,24
+src/routes/+page.svelte,20,svelte,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,16
+src/routes/+page.svelte,21,svelte,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,24
+src/routes/+page.svelte,22,svelte,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,29
+src/routes/+page.svelte,23,svelte,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,27
+src/routes/+page.svelte,24,svelte,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,4
+src/routes/+page.svelte,25,svelte,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,9
+src/routes/+page.svelte,26,svelte,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,13
+src/routes/+page.svelte,27,svelte,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,52
+src/routes/+page.svelte,28,svelte,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,7
+src/routes/+page.svelte,29,svelte,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,13
+src/routes/+page.svelte,30,svelte,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,52
+src/routes/+page.svelte,31,svelte,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,7
+src/routes/+page.svelte,32,svelte,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,0
+src/routes/+page.svelte,33,svelte,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,5
+src/routes/+page.svelte,34,svelte,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,19
+src/routes/+page.svelte,35,svelte,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,45
+src/routes/+page.svelte,36,svelte,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,291
+src/routes/+page.svelte,37,svelte,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,7
+src/routes/+page.svelte,38,svelte,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,75
+src/routes/+page.svelte,39,svelte,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,8
+src/routes/+page.svelte,40,svelte,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,9
+src/routes/+page.svelte,41,svelte,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,0
+src/routes/+page.svelte,42,svelte,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,0
+src/routes/+page.svelte,43,svelte,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,6
+src/routes/+page.svelte,44,svelte,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,0
+src/routes/+page.svelte,45,svelte,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,7
+src/routes/+page.svelte,46,svelte,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,70
+src/routes/+page.svelte,47,svelte,260dcab0,Sillas Rocha,2025-03-20,12:08:02,-03:00,2025-03-20T12:08:02-03:00,0,8
+src/routes/+page.svelte,48,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,0
+src/routes/+layout.svelte,1,svelte,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,0
+src/routes/+layout.svelte,2,svelte,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,7
+src/routes/+layout.svelte,3,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,33
+src/routes/+layout.svelte,4,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,34
+src/routes/+layout.svelte,5,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,0
+src/routes/+layout.svelte,6,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,12
+src/routes/+layout.svelte,7,js,2619cd3b,SILLAS ROCHA DA COSTA,2025-03-27,12:14:33,-03:00,2025-03-27T12:14:33-03:00,0,32
+src/routes/+layout.svelte,8,js,2619cd3b,SILLAS ROCHA DA COSTA,2025-03-27,12:14:33,-03:00,2025-03-27T12:14:33-03:00,0,39
+src/routes/+layout.svelte,9,js,2619cd3b,SILLAS ROCHA DA COSTA,2025-03-27,12:14:33,-03:00,2025-03-27T12:14:33-03:00,0,38
+src/routes/+layout.svelte,10,js,2619cd3b,SILLAS ROCHA DA COSTA,2025-03-27,12:14:33,-03:00,2025-03-27T12:14:33-03:00,0,37
+src/routes/+layout.svelte,11,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,53
+src/routes/+layout.svelte,12,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,1
+src/routes/+layout.svelte,13,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,0
+src/routes/+layout.svelte,14,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,0
+src/routes/+layout.svelte,15,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,48
+src/routes/+layout.svelte,16,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,0
+src/routes/+layout.svelte,17,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,58
+src/routes/+layout.svelte,18,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,0
+src/routes/+layout.svelte,19,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,0
+src/routes/+layout.svelte,20,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,48
+src/routes/+layout.svelte,21,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,52
+src/routes/+layout.svelte,22,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,55
+src/routes/+layout.svelte,23,js,a4c3386d,SILLAS ROCHA DA COSTA,2025-03-27,12:12:13,-03:00,2025-03-27T12:12:13-03:00,0,41
+src/routes/+layout.svelte,24,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,0
+src/routes/+layout.svelte,25,js,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,0
+src/routes/+layout.svelte,26,svelte,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,8
+src/routes/+layout.svelte,27,svelte,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,0
+src/routes/+layout.svelte,28,svelte,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,0
+src/routes/+layout.svelte,29,svelte,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,4
+src/routes/+layout.svelte,30,svelte,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,17
+src/routes/+layout.svelte,31,svelte,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,1
+src/routes/+layout.svelte,32,svelte,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,57
+src/routes/+layout.svelte,33,svelte,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,39
+src/routes/+layout.svelte,34,svelte,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,55
+src/routes/+layout.svelte,35,svelte,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,0
+src/routes/+layout.svelte,36,svelte,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,8
+src/routes/+layout.svelte,37,svelte,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,3
+src/routes/+layout.svelte,38,svelte,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,6
+src/routes/+layout.svelte,39,svelte,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,5
+src/routes/+layout.svelte,40,svelte,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,0
+src/routes/+layout.svelte,41,svelte,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,0
+src/routes/+layout.svelte,42,svelte,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,27
+src/routes/+layout.svelte,43,svelte,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,5
+src/routes/+layout.svelte,44,svelte,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,32
+src/routes/+layout.svelte,45,svelte,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,46
+src/routes/+layout.svelte,46,svelte,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,37
+src/routes/+layout.svelte,47,svelte,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,35
+src/routes/+layout.svelte,48,svelte,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,8
+src/routes/+layout.svelte,49,svelte,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,7
+src/routes/+layout.svelte,50,svelte,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,0
+src/routes/+layout.svelte,51,svelte,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,0
+src/routes/+layout.svelte,52,svelte,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,6
+src/routes/+layout.svelte,53,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,6
+src/routes/+layout.svelte,54,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,25
+src/routes/+layout.svelte,55,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,34
+src/routes/+layout.svelte,56,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,43
+src/routes/+layout.svelte,57,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,0
+src/routes/+layout.svelte,58,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,0
+src/routes/+layout.svelte,59,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,4
+src/routes/+layout.svelte,60,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,13
+src/routes/+layout.svelte,61,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,24
+src/routes/+layout.svelte,62,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,26
+src/routes/+layout.svelte,63,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,32
+src/routes/+layout.svelte,64,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,0
+src/routes/+layout.svelte,65,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,0
+src/routes/+layout.svelte,66,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,6
+src/routes/+layout.svelte,67,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,7
+src/routes/+layout.svelte,68,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,21
+src/routes/+layout.svelte,69,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,14
+src/routes/+layout.svelte,70,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,18
+src/routes/+layout.svelte,71,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,14
+src/routes/+layout.svelte,72,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,0
+src/routes/+layout.svelte,73,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,0
+src/routes/+layout.svelte,74,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,13
+src/routes/+layout.svelte,75,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,26
+src/routes/+layout.svelte,76,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,26
+src/routes/+layout.svelte,77,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,32
+src/routes/+layout.svelte,78,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,14
+src/routes/+layout.svelte,79,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,0
+src/routes/+layout.svelte,80,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,0
+src/routes/+layout.svelte,81,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,11
+src/routes/+layout.svelte,82,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,26
+src/routes/+layout.svelte,83,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,26
+src/routes/+layout.svelte,84,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,41
+src/routes/+layout.svelte,85,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,22
+src/routes/+layout.svelte,86,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,41
+src/routes/+layout.svelte,87,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,0
+src/routes/+layout.svelte,88,css,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,0
+src/routes/+layout.svelte,89,svelte,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,7
+src/routes/+layout.svelte,90,svelte,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,0
+src/routes/+layout.svelte,91,svelte,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,0
+src/routes/+layout.svelte,92,svelte,614f9b1e,SILLAS ROCHA DA COSTA,2025-03-27,12:09:50,-03:00,2025-03-27T12:09:50-03:00,0,7
+src/routes/resume/+page.svelte,1,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,12
+src/routes/resume/+page.svelte,2,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,23
+src/routes/resume/+page.svelte,3,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,13
+src/routes/resume/+page.svelte,4,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,0
+src/routes/resume/+page.svelte,5,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,8
+src/routes/resume/+page.svelte,6,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,26
+src/routes/resume/+page.svelte,7,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,3
+src/routes/resume/+page.svelte,8,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,106
+src/routes/resume/+page.svelte,9,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,110
+src/routes/resume/+page.svelte,10,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,4
+src/routes/resume/+page.svelte,11,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,0
+src/routes/resume/+page.svelte,12,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,9
+src/routes/resume/+page.svelte,13,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,0
+src/routes/resume/+page.svelte,14,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,0
+src/routes/resume/+page.svelte,15,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,0
+src/routes/resume/+page.svelte,16,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,0
+src/routes/resume/+page.svelte,17,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,27
+src/routes/resume/+page.svelte,18,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,19
+src/routes/resume/+page.svelte,19,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,3
+src/routes/resume/+page.svelte,20,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,95
+src/routes/resume/+page.svelte,21,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,120
+src/routes/resume/+page.svelte,22,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,102
+src/routes/resume/+page.svelte,23,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,122
+src/routes/resume/+page.svelte,24,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,125
+src/routes/resume/+page.svelte,25,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,4
+src/routes/resume/+page.svelte,26,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,9
+src/routes/resume/+page.svelte,27,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,0
+src/routes/resume/+page.svelte,28,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,8
+src/routes/resume/+page.svelte,29,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,33
+src/routes/resume/+page.svelte,30,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,22
+src/routes/resume/+page.svelte,31,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,3
+src/routes/resume/+page.svelte,32,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,34
+src/routes/resume/+page.svelte,33,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,41
+src/routes/resume/+page.svelte,34,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,4
+src/routes/resume/+page.svelte,35,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,0
+src/routes/resume/+page.svelte,36,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,20
+src/routes/resume/+page.svelte,37,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,3
+src/routes/resume/+page.svelte,38,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,34
+src/routes/resume/+page.svelte,39,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,4
+src/routes/resume/+page.svelte,40,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,0
+src/routes/resume/+page.svelte,41,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,9
+src/routes/resume/+page.svelte,42,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,0
+src/routes/resume/+page.svelte,43,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,0
+src/routes/resume/+page.svelte,44,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,8
+src/routes/resume/+page.svelte,45,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,41
+src/routes/resume/+page.svelte,46,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,0
+src/routes/resume/+page.svelte,47,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,3
+src/routes/resume/+page.svelte,48,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,94
+src/routes/resume/+page.svelte,49,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,117
+src/routes/resume/+page.svelte,50,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,123
+src/routes/resume/+page.svelte,51,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,143
+src/routes/resume/+page.svelte,52,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,4
+src/routes/resume/+page.svelte,53,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,9
+src/routes/resume/+page.svelte,54,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,0
+src/routes/resume/+page.svelte,55,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,0
+src/routes/resume/+page.svelte,56,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,7
+src/routes/resume/+page.svelte,57,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,70
+src/routes/resume/+page.svelte,58,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,8
+src/routes/projects/+page.svelte,1,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,12
+src/routes/projects/+page.svelte,2,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,22
+src/routes/projects/+page.svelte,3,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,13
+src/routes/projects/+page.svelte,4,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,0
+src/routes/projects/+page.svelte,5,svelte,95a1f939,Sillas Rocha,2025-03-20,12:55:13,-03:00,2025-03-20T12:55:13-03:00,0,7
+src/routes/projects/+page.svelte,6,js,95a1f939,Sillas Rocha,2025-03-20,12:55:13,-03:00,2025-03-20T12:55:13-03:00,0,41
+src/routes/projects/+page.svelte,7,js,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,41
+src/routes/projects/+page.svelte,8,js,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,33
+src/routes/projects/+page.svelte,9,js,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,24
+src/routes/projects/+page.svelte,10,js,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,0
+src/routes/projects/+page.svelte,11,js,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,0
+src/routes/projects/+page.svelte,12,js,eb89d99b,Sillas Rocha,2025-04-03,12:30:58,-03:00,2025-04-03T12:30:58-03:00,0,0
+src/routes/projects/+page.svelte,13,js,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,14
+src/routes/projects/+page.svelte,14,js,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,0
+src/routes/projects/+page.svelte,15,js,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,23
+src/routes/projects/+page.svelte,16,js,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,49
+src/routes/projects/+page.svelte,17,js,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,60
+src/routes/projects/+page.svelte,18,js,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,43
+src/routes/projects/+page.svelte,19,js,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,2
+src/routes/projects/+page.svelte,20,js,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,0
+src/routes/projects/+page.svelte,21,js,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,0
+src/routes/projects/+page.svelte,22,js,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,11
+src/routes/projects/+page.svelte,23,js,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,0
+src/routes/projects/+page.svelte,24,js,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,3
+src/routes/projects/+page.svelte,25,js,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,52
+src/routes/projects/+page.svelte,26,js,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,12
+src/routes/projects/+page.svelte,27,js,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,0
+src/routes/projects/+page.svelte,28,js,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,65
+src/routes/projects/+page.svelte,29,js,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,73
+src/routes/projects/+page.svelte,30,js,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,0
+src/routes/projects/+page.svelte,31,js,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,62
+src/routes/projects/+page.svelte,32,js,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,44
+src/routes/projects/+page.svelte,33,js,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,36
+src/routes/projects/+page.svelte,34,js,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,2
+src/routes/projects/+page.svelte,35,js,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,0
+src/routes/projects/+page.svelte,36,js,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,0
+src/routes/projects/+page.svelte,37,js,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,52
+src/routes/projects/+page.svelte,38,js,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,0
+src/routes/projects/+page.svelte,39,js,530b5eef,Sillas Rocha,2025-04-03,12:54:21,-03:00,2025-04-03T12:54:21-03:00,0,26
+src/routes/projects/+page.svelte,40,js,530b5eef,Sillas Rocha,2025-04-03,12:54:21,-03:00,2025-04-03T12:54:21-03:00,0,0
+src/routes/projects/+page.svelte,41,js,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,16
+src/routes/projects/+page.svelte,42,js,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,82
+src/routes/projects/+page.svelte,43,js,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,0
+src/routes/projects/+page.svelte,44,svelte,95a1f939,Sillas Rocha,2025-03-20,12:55:13,-03:00,2025-03-20T12:55:13-03:00,0,8
+src/routes/projects/+page.svelte,45,svelte,95a1f939,Sillas Rocha,2025-03-20,12:55:13,-03:00,2025-03-20T12:55:13-03:00,0,0
+src/routes/projects/+page.svelte,46,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,5
+src/routes/projects/+page.svelte,47,svelte,d7335aab,SILLAS ROCHA DA COSTA,2025-03-27,12:28:43,-03:00,2025-03-27T12:28:43-03:00,0,36
+src/routes/projects/+page.svelte,48,svelte,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,60
+src/routes/projects/+page.svelte,49,svelte,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,0
+src/routes/projects/+page.svelte,50,svelte,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,106
+src/routes/projects/+page.svelte,51,svelte,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,0
+src/routes/projects/+page.svelte,52,svelte,95a1f939,Sillas Rocha,2025-03-20,12:55:13,-03:00,2025-03-20T12:55:13-03:00,0,21
+src/routes/projects/+page.svelte,53,svelte,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,28
+src/routes/projects/+page.svelte,54,svelte,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,19
+src/routes/projects/+page.svelte,55,svelte,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,13
+src/routes/projects/+page.svelte,56,svelte,95a1f939,Sillas Rocha,2025-03-20,12:55:13,-03:00,2025-03-20T12:55:13-03:00,0,19
+src/routes/projects/+page.svelte,57,svelte,95a1f939,Sillas Rocha,2025-03-20,12:55:13,-03:00,2025-03-20T12:55:13-03:00,0,29
+src/routes/projects/+page.svelte,58,svelte,95a1f939,Sillas Rocha,2025-03-20,12:55:13,-03:00,2025-03-20T12:55:13-03:00,0,2
+src/routes/projects/+page.svelte,59,svelte,95a1f939,Sillas Rocha,2025-03-20,12:55:13,-03:00,2025-03-20T12:55:13-03:00,0,16
+src/routes/projects/+page.svelte,60,svelte,95a1f939,Sillas Rocha,2025-03-20,12:55:13,-03:00,2025-03-20T12:55:13-03:00,0,3
+src/routes/projects/+page.svelte,61,svelte,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,13
+src/routes/projects/+page.svelte,62,svelte,95a1f939,Sillas Rocha,2025-03-20,12:55:13,-03:00,2025-03-20T12:55:13-03:00,0,6
+src/routes/projects/+page.svelte,63,svelte,95a1f939,Sillas Rocha,2025-03-20,12:55:13,-03:00,2025-03-20T12:55:13-03:00,0,5
+src/routes/projects/+page.svelte,64,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,6
+src/routes/projects/+page.svelte,65,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,0
+src/routes/projects/+page.svelte,66,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,7
+src/routes/projects/+page.svelte,67,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,70
+src/routes/projects/+page.svelte,68,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,8
+src/routes/projects/+page.svelte,69,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,0
+src/routes/contact/+page.svelte,1,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,12
+src/routes/contact/+page.svelte,2,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,21
+src/routes/contact/+page.svelte,3,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,13
+src/routes/contact/+page.svelte,4,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,0
+src/routes/contact/+page.svelte,5,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,0
+src/routes/contact/+page.svelte,6,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,24
+src/routes/contact/+page.svelte,7,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,23
+src/routes/contact/+page.svelte,8,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,58
+src/routes/contact/+page.svelte,9,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,37
+src/routes/contact/+page.svelte,10,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,37
+src/routes/contact/+page.svelte,11,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,41
+src/routes/contact/+page.svelte,12,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,38
+src/routes/contact/+page.svelte,13,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,39
+src/routes/contact/+page.svelte,14,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,37
+src/routes/contact/+page.svelte,15,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,22
+src/routes/contact/+page.svelte,16,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,6
+src/routes/contact/+page.svelte,17,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,0
+src/routes/contact/+page.svelte,18,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,7
+src/routes/contact/+page.svelte,19,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,70
+src/routes/contact/+page.svelte,20,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,8
+src/routes/contact/+page.svelte,21,svelte,f3b2a8be,Sillas Rocha,2025-03-20,12:33:06,-03:00,2025-03-20T12:33:06-03:00,0,9
+src/lib/Project.svelte,1,svelte,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,7
+src/lib/Project.svelte,2,js,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,20
+src/lib/Project.svelte,3,js,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,21
+src/lib/Project.svelte,4,svelte,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,8
+src/lib/Project.svelte,5,svelte,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,0
+src/lib/Project.svelte,6,svelte,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,8
+src/lib/Project.svelte,7,svelte,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,29
+src/lib/Project.svelte,8,svelte,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,64
+src/lib/Project.svelte,9,svelte,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,30
+src/lib/Project.svelte,10,svelte,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,2
+src/lib/Project.svelte,11,svelte,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,17
+src/lib/Project.svelte,12,svelte,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,3
+src/lib/Project.svelte,13,svelte,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,9
+src/lib/Project.svelte,14,svelte,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,0
+src/lib/Project.svelte,15,svelte,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,6
+src/lib/Project.svelte,16,css,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,7
+src/lib/Project.svelte,17,css,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,1,13
+src/lib/Project.svelte,18,css,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,1,13
+src/lib/Project.svelte,19,css,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,1,27
+src/lib/Project.svelte,20,css,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,1,16
+src/lib/Project.svelte,21,css,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,0
+src/lib/Project.svelte,22,css,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,0
+src/lib/Project.svelte,23,css,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,10
+src/lib/Project.svelte,24,css,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,9
+src/lib/Project.svelte,25,css,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,0
+src/lib/Project.svelte,26,css,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,4
+src/lib/Project.svelte,27,css,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,12
+src/lib/Project.svelte,28,css,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,0
+src/lib/Project.svelte,29,svelte,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,7
+src/lib/Pie.svelte,1,svelte,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,7
+src/lib/Pie.svelte,2,js,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,24
+src/lib/Pie.svelte,3,js,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,0
+src/lib/Pie.svelte,4,js,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,58
+src/lib/Pie.svelte,5,js,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,0
+src/lib/Pie.svelte,6,js,eb89d99b,Sillas Rocha,2025-04-03,12:30:58,-03:00,2025-04-03T12:30:58-03:00,0,49
+src/lib/Pie.svelte,7,js,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,0
+src/lib/Pie.svelte,8,js,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,23
+src/lib/Pie.svelte,9,js,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,13
+src/lib/Pie.svelte,10,js,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,20
+src/lib/Pie.svelte,11,js,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,2
+src/lib/Pie.svelte,12,js,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,0
+src/lib/Pie.svelte,13,js,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,20
+src/lib/Pie.svelte,14,js,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,0
+src/lib/Pie.svelte,15,js,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,29
+src/lib/Pie.svelte,16,js,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,0
+src/lib/Pie.svelte,17,js,eb89d99b,Sillas Rocha,2025-04-03,12:30:58,-03:00,2025-04-03T12:30:58-03:00,0,11
+src/lib/Pie.svelte,18,js,eb89d99b,Sillas Rocha,2025-04-03,12:30:58,-03:00,2025-04-03T12:30:58-03:00,0,8
+src/lib/Pie.svelte,19,js,eb89d99b,Sillas Rocha,2025-04-03,12:30:58,-03:00,2025-04-03T12:30:58-03:00,0,0
+src/lib/Pie.svelte,20,js,eb89d99b,Sillas Rocha,2025-04-03,12:30:58,-03:00,2025-04-03T12:30:58-03:00,0,3
+src/lib/Pie.svelte,21,js,eb89d99b,Sillas Rocha,2025-04-03,12:30:58,-03:00,2025-04-03T12:30:58-03:00,0,30
+src/lib/Pie.svelte,22,js,eb89d99b,Sillas Rocha,2025-04-03,12:30:58,-03:00,2025-04-03T12:30:58-03:00,0,40
+src/lib/Pie.svelte,23,js,eb89d99b,Sillas Rocha,2025-04-03,12:30:58,-03:00,2025-04-03T12:30:58-03:00,0,0
+src/lib/Pie.svelte,24,js,eb89d99b,Sillas Rocha,2025-04-03,12:30:58,-03:00,2025-04-03T12:30:58-03:00,0,0
+src/lib/Pie.svelte,25,js,eb89d99b,Sillas Rocha,2025-04-03,12:30:58,-03:00,2025-04-03T12:30:58-03:00,0,0
+src/lib/Pie.svelte,26,js,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,0
+src/lib/Pie.svelte,27,js,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,48
+src/lib/Pie.svelte,28,js,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,0
+src/lib/Pie.svelte,29,js,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,0
+src/lib/Pie.svelte,30,svelte,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,8
+src/lib/Pie.svelte,31,svelte,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,0
+src/lib/Pie.svelte,32,svelte,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,22
+src/lib/Pie.svelte,33,svelte,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,30
+src/lib/Pie.svelte,34,svelte,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,25
+src/lib/Pie.svelte,35,svelte,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,35
+src/lib/Pie.svelte,36,svelte,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,39
+src/lib/Pie.svelte,37,svelte,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,67
+src/lib/Pie.svelte,38,svelte,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,6
+src/lib/Pie.svelte,39,svelte,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,0
+src/lib/Pie.svelte,40,svelte,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,0
+src/lib/Pie.svelte,41,svelte,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,0
+src/lib/Pie.svelte,42,svelte,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,5
+src/lib/Pie.svelte,43,svelte,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,18
+src/lib/Pie.svelte,44,svelte,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,23
+src/lib/Pie.svelte,45,svelte,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,38
+src/lib/Pie.svelte,46,svelte,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,27
+src/lib/Pie.svelte,47,svelte,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,29
+src/lib/Pie.svelte,48,svelte,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,4
+src/lib/Pie.svelte,49,svelte,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,6
+src/lib/Pie.svelte,50,svelte,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,4
+src/lib/Pie.svelte,51,svelte,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,5
+src/lib/Pie.svelte,52,svelte,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,0
+src/lib/Pie.svelte,53,svelte,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,0
+src/lib/Pie.svelte,54,svelte,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,6
+src/lib/Pie.svelte,55,css,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,4
+src/lib/Pie.svelte,56,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,1,15
+src/lib/Pie.svelte,57,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,1,17
+src/lib/Pie.svelte,58,css,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,0
+src/lib/Pie.svelte,59,css,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,43
+src/lib/Pie.svelte,60,css,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,17
+src/lib/Pie.svelte,61,css,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,0
+src/lib/Pie.svelte,62,css,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,0
+src/lib/Pie.svelte,63,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,37
+src/lib/Pie.svelte,64,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,1,12
+src/lib/Pie.svelte,65,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,0
+src/lib/Pie.svelte,66,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,0
+src/lib/Pie.svelte,67,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,5
+src/lib/Pie.svelte,68,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,1,17
+src/lib/Pie.svelte,69,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,0
+src/lib/Pie.svelte,70,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,0
+src/lib/Pie.svelte,71,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,10
+src/lib/Pie.svelte,72,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,13
+src/lib/Pie.svelte,73,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,19
+src/lib/Pie.svelte,74,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,10
+src/lib/Pie.svelte,75,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,0
+src/lib/Pie.svelte,76,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,0
+src/lib/Pie.svelte,77,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,7
+src/lib/Pie.svelte,78,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,13
+src/lib/Pie.svelte,79,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,58
+src/lib/Pie.svelte,80,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,23
+src/lib/Pie.svelte,81,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,12
+src/lib/Pie.svelte,82,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,11
+src/lib/Pie.svelte,83,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,7
+src/lib/Pie.svelte,84,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,0
+src/lib/Pie.svelte,85,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,0
+src/lib/Pie.svelte,86,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,10
+src/lib/Pie.svelte,87,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,12
+src/lib/Pie.svelte,88,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,19
+src/lib/Pie.svelte,89,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,10
+src/lib/Pie.svelte,90,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,0
+src/lib/Pie.svelte,91,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,0
+src/lib/Pie.svelte,92,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,7
+src/lib/Pie.svelte,93,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,21
+src/lib/Pie.svelte,94,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,30
+src/lib/Pie.svelte,95,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,10
+src/lib/Pie.svelte,96,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,11
+src/lib/Pie.svelte,97,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,0
+src/lib/Pie.svelte,98,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,0
+src/lib/Pie.svelte,99,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,69
+src/lib/Pie.svelte,100,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,39
+src/lib/Pie.svelte,101,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,12
+src/lib/Pie.svelte,102,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,0
+src/lib/Pie.svelte,103,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,0
+src/lib/Pie.svelte,104,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,10
+src/lib/Pie.svelte,105,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,1,36
+src/lib/Pie.svelte,106,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,1,0
+src/lib/Pie.svelte,107,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,1,11
+src/lib/Pie.svelte,108,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,2,29
+src/lib/Pie.svelte,109,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,1,0
+src/lib/Pie.svelte,110,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,1,0
+src/lib/Pie.svelte,111,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,1,9
+src/lib/Pie.svelte,112,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,2,19
+src/lib/Pie.svelte,113,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,1,0
+src/lib/Pie.svelte,114,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,0
+src/lib/Pie.svelte,115,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,0
+src/lib/Pie.svelte,116,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,36
+src/lib/Pie.svelte,117,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,1,11
+src/lib/Pie.svelte,118,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,0
+src/lib/Pie.svelte,119,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,0
+src/lib/Pie.svelte,120,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,11
+src/lib/Pie.svelte,121,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,1,24
+src/lib/Pie.svelte,122,css,8d2a2e69,Sillas Rocha,2025-04-03,12:03:48,-03:00,2025-04-03T12:03:48-03:00,0,0
+src/lib/Pie.svelte,123,css,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,0
+src/lib/Pie.svelte,124,css,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,37
+src/lib/Pie.svelte,125,css,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,12
+src/lib/Pie.svelte,126,css,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,0
+src/lib/Pie.svelte,127,css,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,0
+src/lib/Pie.svelte,128,css,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,5
+src/lib/Pie.svelte,129,css,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,17
+src/lib/Pie.svelte,130,css,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,0
+src/lib/Pie.svelte,131,css,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,0
+src/lib/Pie.svelte,132,css,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,0
+src/lib/Pie.svelte,133,css,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,69
+src/lib/Pie.svelte,134,css,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,39
+src/lib/Pie.svelte,135,css,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,12
+src/lib/Pie.svelte,136,css,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,0
+src/lib/Pie.svelte,137,css,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,0
+src/lib/Pie.svelte,138,css,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,10
+src/lib/Pie.svelte,139,css,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,36
+src/lib/Pie.svelte,140,css,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,0
+src/lib/Pie.svelte,141,css,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,11
+src/lib/Pie.svelte,142,css,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,29
+src/lib/Pie.svelte,143,css,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,0
+src/lib/Pie.svelte,144,css,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,0
+src/lib/Pie.svelte,145,css,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,9
+src/lib/Pie.svelte,146,css,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,19
+src/lib/Pie.svelte,147,css,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,0
+src/lib/Pie.svelte,148,css,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,0
+src/lib/Pie.svelte,149,css,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,0
+src/lib/Pie.svelte,150,css,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,36
+src/lib/Pie.svelte,151,css,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,11
+src/lib/Pie.svelte,152,css,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,0
+src/lib/Pie.svelte,153,css,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,0
+src/lib/Pie.svelte,154,css,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,0
+src/lib/Pie.svelte,155,css,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,11
+src/lib/Pie.svelte,156,css,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,24
+src/lib/Pie.svelte,157,css,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,0
+src/lib/Pie.svelte,158,css,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,0
+src/lib/Pie.svelte,159,css,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,5
+src/lib/Pie.svelte,160,css,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,8
+src/lib/Pie.svelte,161,css,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,15
+src/lib/Pie.svelte,162,css,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,0
+src/lib/Pie.svelte,163,css,f5a08a60,Sillas Rocha,2025-04-03,12:53:13,-03:00,2025-04-03T12:53:13-03:00,0,0
+src/lib/Pie.svelte,164,css,5ce88d7f,Sillas Rocha,2025-04-03,12:25:21,-03:00,2025-04-03T12:25:21-03:00,0,0
+src/lib/Pie.svelte,165,svelte,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,7
+src/lib/Pie.svelte,166,svelte,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,0
+src/lib/Pie.svelte,167,svelte,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,0
+src/lib/Pie.svelte,168,svelte,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,0
+src/lib/Pie.svelte,169,svelte,6bbdaf71,Sillas Rocha,2025-04-03,11:54:05,-03:00,2025-04-03T11:54:05-03:00,0,0

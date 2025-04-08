@@ -8,6 +8,7 @@ let pages = [
     { url: "/projects", title: "Projetos" },
     { url: "/resume", title: "Currículo" },
     { url: "/contact", title: "Contato" },
+    { url: "/meta", title: "Meta" },
     { url: "https://github.com/scrocha", title: "GitHub" }
 ];
 
