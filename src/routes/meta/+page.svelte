@@ -5,6 +5,7 @@
 <script>
   import * as d3 from 'd3';
   import { onMount } from 'svelte';
+  import { base } from '$app/paths';
   import Pie from '$lib/Pie.svelte';
   import Bar from '$lib/Bar.svelte';
   import {
@@ -110,7 +111,7 @@
 
   onMount(async () => {
     try {
-      const response = await fetch('./loc.csv');
+      const response = await fetch(`${base}/loc.csv`);
       const text = await response.text();
       
       // Processando o CSV
