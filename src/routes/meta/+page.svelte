@@ -6,6 +6,11 @@
   import * as d3 from 'd3';
   import { onMount } from 'svelte';
   import Pie from '$lib/Pie.svelte';
+  import {
+    computePosition,
+    autoPlacement,
+    offset,
+  } from '@floating-ui/dom';
   
   let csvData = [];
   let loading = true;
@@ -50,6 +55,10 @@
       .domain([24, 0])
       .range([usableArea.bottom, usableArea.top]);
 
+  $: rScale = d3.scaleSqrt()
+      .domain(d3.extent(commits.map(d => d.totalLines)))
+      .range([2, 30]);
+
   let xAxis, yAxis, yAxisGridlines;
 
   $: {
@@ -62,6 +71,42 @@
       );
   }
   
+  let hoveredIndex = -1;
+  $: hoveredCommit = commits[hoveredIndex] ?? hoveredCommit ?? {};
+  let cursor = {x: 0, y: 0};
+  let tooltipPosition = {x: 0, y: 0};
+  let commitTooltip;
+  let clickedCommits = []; // Nova variável para rastrear commits clicados
+  
+  async function dotInteraction(index, evt) {
+    let hoveredDot = evt.target;
+    if (evt.type === "mouseenter") {
+      hoveredIndex = index;
+      cursor = {x: evt.x, y: evt.y};
+      tooltipPosition = await computePosition(hoveredDot, commitTooltip, {
+        strategy: "fixed", // because we use position: fixed
+        middleware: [
+          offset(5), // spacing from tooltip to dot
+          autoPlacement() // to handle viewport edges
+        ],
+      });
+    }
+    else if (evt.type === "mouseleave") {
+      hoveredIndex = -1;
+    }
+    else if (evt.type === "click") {
+      let commit = commits[index];
+      if (!clickedCommits.includes(commit)) {
+        // Adiciona o commit ao array clickedCommits
+        clickedCommits = [...clickedCommits, commit];
+      }
+      else {
+        // Remove o commit do array
+        clickedCommits = clickedCommits.filter(c => c !== commit);
+      }
+    }
+  }
+
   onMount(async () => {
     try {
       const response = await fetch('/loc.csv');
@@ -109,6 +154,9 @@
         return ret;
       }).filter(c => c !== null);
       
+      // Ordenando commits por tamanho para que os menores fiquem visíveis
+      commits = d3.sort(commits, d => -d.totalLines);
+
       // Estatísticas adicionais
       const fileGroups = d3.groups(csvData, d => d.file);
       maxFileLength = d3.max(fileGroups, group => group[1].length) || 0;
@@ -244,11 +292,29 @@
                   <circle
                       cx={ xScale(commit.datetime) }
                       cy={ yScale(commit.hourFrac) }
-                      r="5"
-                      fill="steelblue" />
+                      r={ rScale(commit.totalLines) }
+                      fill="steelblue"
+                      fill-opacity="0.5"
+                      class:selected={ clickedCommits.includes(commit) }
+                      on:mouseenter={evt => dotInteraction(index, evt)}
+                      on:mouseleave={evt => dotInteraction(index, evt)}
+                      on:click={evt => dotInteraction(index, evt)} />
               {/each}
           </g>
       </svg>
+      
+      <dl class="info tooltip" bind:this={commitTooltip} hidden={hoveredIndex === -1} style="top: {tooltipPosition.y}px; left: {tooltipPosition.x}px">
+        <dt>Commit</dt>
+        <dd><a href="{ hoveredCommit.url }" target="_blank">{ hoveredCommit.id?.substring(0, 7) }</a></dd>
+        <dt>Data</dt>
+        <dd>{ hoveredCommit.datetime?.toLocaleString("pt-BR", {dateStyle: "full"}) }</dd>
+        <dt>Autor</dt>
+        <dd>{ hoveredCommit.author }</dd>
+        <dt>Hora</dt>
+        <dd>{ hoveredCommit.time }</dd>
+        <dt>Linhas Editadas</dt>
+        <dd>{ hoveredCommit.totalLines }</dd>
+      </dl>
     </section>
   {/if}
 </main>
@@ -339,5 +405,57 @@
   }
   .gridlines {
     stroke-opacity: 0.2;
+  }
+
+  .info {
+    display: grid;
+    margin: 0;
+    grid-template-columns: auto 1fr;
+    background-color: oklch(100% 0% 0 / 80%);
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    transition-duration: 500ms;
+    transition-property: opacity, visibility;
+  }
+  
+  .info dt {
+    grid-column: 1;
+    grid-row: auto;
+    color: var(--grey, #666);
+  }
+  
+  .info dd {
+    grid-column: 2;
+    grid-row: auto;
+    font-weight: 400;
+    margin-left: 1em;
+  }
+  
+  .tooltip {
+    position: fixed;
+    z-index: 1000;
+  }
+  
+  .tooltip[hidden]:not(:hover, :focus-within) {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  circle {
+    transition: 200ms;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  
+  circle:hover {
+    transform: scale(1.5);
+  }
+  
+  .selected {
+    fill: var(--collor-accent, oklch(65% 50% 70));
+    stroke: #333;
+    stroke-width: 1px;
   }
 </style>
