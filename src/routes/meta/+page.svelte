@@ -6,6 +6,7 @@
   import * as d3 from 'd3';
   import { onMount } from 'svelte';
   import Pie from '$lib/Pie.svelte';
+  import Bar from '$lib/Bar.svelte';
   import {
     computePosition,
     autoPlacement,
@@ -200,6 +201,19 @@
       loading = false;
     }
   });
+
+  $: allTypes = Array.from(new Set(csvData.map(d => d.type)));
+
+  $: selectedLines = (clickedCommits.length > 0 ? clickedCommits : commits).flatMap(d => d.lines);
+
+  $: selectedCounts = d3.rollup(
+    selectedLines,
+    v => v.length,
+    d => d.type
+  );
+
+  $: languageBreakdown = allTypes.map(type => [type, selectedCounts.get(type) || 0]);
+
 </script>
 
 <main>
@@ -260,28 +274,6 @@
     </section>
     
     <section>
-      <h2>Contribuições por Autor</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Autor</th>
-            <th>Linhas</th>
-            <th>Porcentagem</th>
-          </tr>
-        </thead>
-        <tbody>
-          {#each authorStats as { author, lines }}
-            <tr>
-              <td>{author}</td>
-              <td>{lines}</td>
-              <td>{((lines / totalLines) * 100).toFixed(2)}%</td>
-            </tr>
-          {/each}
-        </tbody>
-      </table>
-    </section>
-
-    <section>
       <h3>Commits por horário do dia</h3>
       <svg viewBox="0 0 {width} {height}">
           <g class="gridlines" transform="translate({usableArea.left}, 0)" bind:this={yAxisGridlines} />
@@ -316,6 +308,9 @@
         <dd>{ hoveredCommit.totalLines }</dd>
       </dl>
     </section>
+
+    <Bar data={languageBreakdown} width={width} />
+
   {/if}
 </main>
 
