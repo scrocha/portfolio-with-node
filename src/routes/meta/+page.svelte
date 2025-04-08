@@ -290,6 +290,7 @@
     border-width: 0.15em;
     border-style: solid;
     border-color: var(--grey, #ccc);
+    color: black;
   }
   
   .stats-container {

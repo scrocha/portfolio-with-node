@@ -89,7 +89,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: inherit;
+  color: black; /* Força o texto da navbar a permanecer preto */
   text-align: center;
   padding: 1em 0.5em;
   display: block;
