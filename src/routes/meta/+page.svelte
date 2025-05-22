@@ -1,10 +1,12 @@
 <script>
   import { base } from "$app/paths";
   import Bar from "$lib/Bar.svelte";
+  import FileLines from "$lib/FileLines.svelte";
   import Pie from "$lib/Pie.svelte";
   import { autoPlacement, computePosition, offset } from "@floating-ui/dom";
   import * as d3 from "d3";
   import { onMount } from "svelte";
+  import Scrolly from "svelte-scrolly";
 
   let csvData = [];
   let loading = true;
@@ -37,7 +39,9 @@
   usableArea.height = usableArea.bottom - usableArea.top;
 
   // Variável do slider (0-100)
-  let commitProgress = 100;
+  let commitProgress = 0;
+  // Variável para o segundo scrolly de tamanhos de arquivos
+  let raceProgress = 100;
 
   $: minDate = d3.min(commits.map((d) => d.date));
   $: maxDate = d3.max(commits.map((d) => d.date));
@@ -47,12 +51,17 @@
   // Escala para o slider (0-100 <-> datas)
   $: timeScale = d3.scaleTime().domain([minDate, maxDate]).range([0, 100]);
   $: commitMaxTime = timeScale.invert(commitProgress);
+  $: commitMaxTime_2 = timeScale.invert(raceProgress);
 
   // Commits filtrados pelo slider
   $: filteredCommits = commits.filter((d) => d.datetime <= commitMaxTime);
   // Linhas filtradas pelo slider
   $: filteredLines = csvData.filter(
     (d) => d.datetime && d.datetime <= commitMaxTime,
+  );
+  // Dados filtrados para o segundo Scrolly
+  $: filteredData = csvData.filter(
+    (d) => d.datetime && d.datetime <= commitMaxTime_2,
   );
 
   // Atualiza estatísticas com base nos commits filtrados
@@ -259,10 +268,17 @@
     type,
     selectedCounts.get(type) || 0,
   ]);
+
+  let colorScale = d3.scaleOrdinal(d3.schemeTableau10);
 </script>
 
 <svelte:head>
   <title>Meta-análise do Código</title>
+  <style>
+    :global(body) {
+      max-width: min(120ch, 80vw);
+    }
+  </style>
 </svelte:head>
 
 <main>
@@ -300,111 +316,56 @@
     <section>
       <h2>Análise de Commits</h2>
       <p>Total de commits: {filteredCommits.length}</p>
-      {#if filteredCommits.length > 0}
-        <table>
-          <thead>
-            <tr>
-              <th>ID do Commit</th>
-              <th>Autor</th>
-              <th>Data</th>
-              <th>Linhas Alteradas</th>
-            </tr>
-          </thead>
-          <tbody>
-            {#each filteredCommits.slice(0, 10) as commit}
-              <tr>
-                <td
-                  ><a href={commit.url} target="_blank"
-                    >{commit.id.substring(0, 7)}</a
-                  ></td
-                >
-                <td>{commit.author}</td>
-                <td
-                  >{commit.date
-                    ? new Date(commit.date).toLocaleDateString()
-                    : "N/A"}</td
-                >
-                <td>{commit.totalLines}</td>
-              </tr>
-            {/each}
-          </tbody>
-        </table>
-        <p><em>Mostrando os 10 commits mais recentes</em></p>
-      {/if}
-    </section>
 
-    <!-- Slider para filtrar commits por data -->
-    <div class="slider-container">
-      <div class="slider">
-        <label for="slider">Mostrar commits até:</label>
-        <input
-          type="range"
-          id="slider"
-          name="slider"
-          min="0"
-          max="100"
-          bind:value={commitProgress}
-        />
-      </div>
-      <time class="time-label">{commitMaxTime.toLocaleString()}</time>
-    </div>
+      <Scrolly bind:progress={commitProgress}>
+        <svelte:fragment slot="viz">
+          <!-- Visualizações aqui -->
+          <svg viewBox="0 0 {width} {height}"> </svg>
+          <Bar data={languageBreakdown} {width} />
+          <FileLines lines={filteredLines} {width} {colorScale} />
+        </svelte:fragment>
+
+        {#each commits as commit, index}
+          <p>
+            Em {commit.datetime.toLocaleString("pt-BR", {
+              dateStyle: "full",
+              timeStyle: "short",
+            })},
+            {index === 0 ? "Primeiro commit" : "Outro commit"}
+            <a href={commit.url} target="_blank">aqui</a>. Atualizou {commit.totalLines}
+            linhas em {d3.rollups(
+              commit.lines,
+              (D) => D.length,
+              (d) => d.file,
+            ).length} arquivos.
+          </p>
+        {/each}
+      </Scrolly>
+    </section>
 
     <section>
-      <h3>Commits por horário do dia</h3>
-      <svg viewBox="0 0 {width} {height}">
-        <g
-          class="gridlines"
-          transform="translate({usableArea.left}, 0)"
-          bind:this={yAxisGridlines}
-        />
-        <g transform="translate(0, {usableArea.bottom})" bind:this={xAxis} />
-        <g transform="translate({usableArea.left}, 0)" bind:this={yAxis} />
-        <g class="dots">
-          {#each filteredCommits as commit, index (commit.id)}
-            <circle
-              cx={xScale(commit.datetime)}
-              cy={yScale(commit.hourFrac)}
-              r={rScale(commit.totalLines)}
-              fill="steelblue"
-              fill-opacity="0.5"
-              class:selected={clickedCommits.includes(commit)}
-              on:mouseenter={(evt) => dotInteraction(index, evt)}
-              on:mouseleave={(evt) => dotInteraction(index, evt)}
-              on:click={(evt) => dotInteraction(index, evt)}
-              style="--r: {rScale(commit.totalLines)}"
-            />
-          {/each}
-        </g>
-      </svg>
+      <h2>Tamanhos dos Arquivos</h2>
+      <p>Visualização da evolução do tamanho dos arquivos ao longo do tempo</p>
 
-      <dl
-        class="info tooltip"
-        bind:this={commitTooltip}
-        hidden={hoveredIndex === -1}
-        style="top: {tooltipPosition.y}px; left: {tooltipPosition.x}px"
-      >
-        <dt>Commit</dt>
-        <dd>
-          <a href={hoveredCommit.url} target="_blank"
-            >{hoveredCommit.id?.substring(0, 7)}</a
-          >
-        </dd>
-        <dt>Data</dt>
-        <dd>
-          {hoveredCommit.datetime?.toLocaleString("pt-BR", {
-            dateStyle: "full",
-          })}
-        </dd>
-        <dt>Autor</dt>
-        <dd>{hoveredCommit.author}</dd>
-        <dt>Hora</dt>
-        <dd>{hoveredCommit.time}</dd>
-        <dt>Linhas Editadas</dt>
-        <dd>{hoveredCommit.totalLines}</dd>
-      </dl>
+      <Scrolly bind:progress={raceProgress}>
+        <svelte:fragment slot="viz">
+          <FileLines lines={filteredData} {width} {colorScale} />
+        </svelte:fragment>
+
+        <div>
+          <p>Observe como os arquivos crescem com o tempo.</p>
+        </div>
+        <div>
+          <p>Os arquivos maiores são exibidos primeiro na visualização.</p>
+        </div>
+        <div>
+          <p>Cada ponto representa aproximadamente 10 linhas de código.</p>
+        </div>
+        <div>
+          <p>As cores representam diferentes tipos de código.</p>
+        </div>
+      </Scrolly>
     </section>
-
-    <Bar data={languageBreakdown} {width} />
   {/if}
 </main>
 
@@ -571,5 +532,32 @@
     font-size: 0.75em;
     text-align: right;
     margin-top: 0.2em;
+  }
+
+  /* Scrolly styles */
+  :global(.scrolly-container) {
+    width: 100%;
+    position: relative;
+    padding: 1em 0;
+  }
+
+  :global(.scrolly-container .scrolly-section) {
+    position: relative;
+    padding: 0 1em;
+    margin: 0 auto;
+    max-width: 60ch;
+  }
+
+  :global(.scrolly-container .scrolly-viz) {
+    position: sticky;
+    top: 10vh;
+    width: 100%;
+    height: 70vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
   }
 </style>
